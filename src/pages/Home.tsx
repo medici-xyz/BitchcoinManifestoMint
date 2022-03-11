@@ -55,8 +55,8 @@ export const Home = () => {
 			<Box className={classes.container}>
 				<img src={manifestoImg} alt="" className={classes.image} />
 
-				<Button variant="outlined" color="primary" className={classes.button} onClick={() => setShowModal(true)}>
-					Mint Manifesto
+				<Button disabled variant="outlined" color="primary" className={classes.button} onClick={() => setShowModal(true)}>
+					Mint Closed
 				</Button>
 
 				<Box className={classes.footer}>
